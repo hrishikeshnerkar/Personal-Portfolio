@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PortFolio</title>
+    <link rel="stylesheet" href="Style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>\
+    <script src="https://kit.fontawesome.com/100b5f8411.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <!-- Home Page -->
+    <header class="header">
+        <a href="" class="logo"><i class='bx bxl-xing'></i>HRISHIWEB</a>
+        <nav class="navbar">
+            <a href="#header" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Skills</a> 
+            <a href="#contact" class="contact-el">Contact Me</a>
+            <i class="fas fa-times" onclick="closemenu()"></i>
+        </nav>
+        <i class="fas fa-bars" onclick="openmenu()"></i>
+    </header>
+
+    <section class="home" id="header">
+        <img src="Img/PHOTO3.2.jpg" alt="">
+        <div class="home-content">
+            <h2>Hi there, I'm <span>Hrishikesh</span></h2>
+            <h3>And I'm a <span class="text"></span></h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam impedit quos fugiat commodi possimus,
+                eum fugit nesciunt doloribus repudiandae quas omnis obcaecati necessitatibus labore exercitationem,
+                inventore velit quaerat accusamus sit?</p>
+            <h4>🚀 Looking to bring your web ideas to life? 🌐💡</h4>
+        </div>
+    </section>
+
+    <!-- About-Page -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <h2>About <span>Me</span></h2>
+            <img src="Img/Sidepng.jpeg" alt="">
+        </div>
+        <div class="about-text">
+            <h4>Full Stack Developer!</h4>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis doloribus dolorum sapiente atque,
+                accusamus provident iusto veniam odio recusandae reiciendis, laboriosam esse ratione numquam cumque
+                repellat aliquid earum inventore voluptates.</p>
+            <a href="mailto:hrishikeshnerkar40@gmail.com" class="btn-box">Hire Me!</a>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section>
+        <div class="services" id="services">
+            <div class="container">
+                <h1 class="sub-title">My <span>Skills</span></h1>
+                <div class="services-list">
+                    <div>
+                        <div class="icon-container"><i class='bx bxl-sketch' style="color: blue;"></i></div>
+                        <h2>FrontEnd</h2>
+                        <div><i class='bx bxl-html5 ' style="color: orangered;">HTML5</i></div>
+                        <div><i class='bx bxl-css3' style='color:orange' class="css-btn">CSS3</i></div>
+                        <div><i class='bx bxl-tailwind-css' style='color:skyblue'>Tailwind CSS</i></div>
+                        <div><i class='bx bxl-javascript' style='color:yellow'>JavaScript</i></div>
+                        <div><i class='bx bxl-bootstrap' style='color:rgb(93, 30, 93)'>Bootstrap</i></div>
+                    </div>
+                    <div>
+                        <i class=""><i class='bx bx-code-alt' style='color:black'></i></i>
+                        <h2>BackEnd</h2>
+                        <div><i class='bx bxl-mongodb' style="color: rgb(39, 176, 39);">MongoDB</i></div>
+                        <div><i class='bx bxl-python' style="color: rgb(7, 71, 77);">Python</i></div>
+                        <div><i class='bx bxl-nodejs' style="color: darkgreen;">Node.js</i></div>
+                        <div><i class='bx bxl-spring-boot' style='color:green'>Spring Boot</i></div>
+                    </div>
+                    <div>
+                        <i class=""><i class='bx bxs-customize'></i></i>
+                        <h2>Tools</h2>
+                        <div><i class='bx bxl-git' style="color: orangered;">Git</i></div>
+                        <div><i class='bx bxl-github'>GitHub</i></div>
+                        <div><i class='bx bxl-visual-studio' style='color:rgb(68, 68, 239)'>Visual Studio Code</i></div>
+                        <div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section>
+        <div class="portfolio" id="portfolio">
+            <div class="main-text" id="project">
+                <h2> My <span>Projects</span></h2>
+                <div class="portfolio-content">
+                    <div class="row">
+                        <img src="Img/work-1.png" alt="">
+                        <div class="layer">
+                            <h5>Social Media App</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum iusto, pariatur
+                                doloremque consectetur accusamus dignissimos quam, rerum veniam placeat quo, eius
+                                sapiente. Sequi aliquid atque, tenetur quibusdam perspiciatis ullam dolorem!</p>
+                            <a href="#"><i class='bx bx-link-external' style='color:black'></i></a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <img src="Img/work-2.png" alt="">
+                        <div class="layer">
+                            <h5>Music App</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum iusto, pariatur
+                                doloremque consectetur accusamus dignissimos quam, rerum veniam placeat quo, eius
+                                sapiente. Sequi aliquid atque, tenetur quibusdam perspiciatis ullam dolorem!</p>
+                            <a href="#"><i class='bx bx-link-external' style='color:black'></i></a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <img src="Img/work-3.png" alt="">
+                        <div class="layer">
+                            <h5>Online Shopping App</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum iusto, pariatur
+                                doloremque consectetur accusamus dignissimos quam, rerum veniam placeat quo, eius
+                                sapiente. Sequi aliquid atque, tenetur quibusdam perspiciatis ullam dolorem!</p>
+                            <a href="#"><i class='bx bx-link-external' style='color:black'></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Copy-->
+    <section id="contact">
+        <div class="column">
+            <div class="contact-el2">
+                <h1 class="section-title">Contact&nbsp;<span>Me</span></h1>
+                <h4>Have a project in mind? Let's collaborate! I'm always eager to hear about exciting opportunities and new ideas. Feel free to reach out to me <br><br>
+                    Let's work Together!
+                </h4>
+                <a href="Img/Hrishikesh Resume.pdf" class="btn-box">Resume</a>
+            </div>
+            <div class="contact-items">
+                <div class="contact-item">
+                    <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/phone.png" /></div>
+                    <div class="contact-info">
+                        <h1>Phone</h1>
+                        <h2>+1 234 123 1234</h2>
+                        <h2>+1 234 123 1234</h2>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/new-post.png" /></div>
+                    <div class="contact-info">
+                        <h1>Email</h1>
+                        <h2>info@gmail.com</h2>
+                        <h2>abcd@gmail.com</h2>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/map-marker.png" /></div>
+                    <div class="contact-info">
+                        <h1>Address</h1>
+                        <h2>Pune, Maharashtra, India</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -Copy-->
+    <section id="footer">
+        <div class="footer Container">
+            <div class="brand">
+                <h1><span>H</span>rishikesh <span>N</span>erkar</h1>
+            </div>
+            <div class="social-icon">
+                <div class="social-item">
+                    <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/facebook-new.png" /></a>
+                </div>
+                <div class="social-item">
+                    <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/instagram-new.png" /></a>
+                </div>
+                <div class="social-item">
+                    <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/linkedin.png" /></a>
+                </div>
+            </div>
+            <p>© Copyright 2024 HrishiWeb. All rights reserved.</p>
+        </div>
+    </section>
+
+
+    <script src="Style.js"></script>
+</body>
+
+</html>
